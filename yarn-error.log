@@ -1,0 +1,83 @@
+Arguments: 
+  /usr/local/Cellar/node/10.7.0/bin/node /Users/epicore/.yarn/bin/yarn.js add @ubaidjs/react-native-material-textfield
+
+PATH: 
+  /Users/epicore/.yarn/bin:/Users/epicore/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/epicore/.yarn/bin:/Users/epicore/.config/yarn/global/node_modules/.bin:/Users/epicore/Library/Android/sdk//tools:/Users/epicore/Library/Android/sdk//platform-tools:/Users/epicore/Library/Android/sdk/tools:/Users/epicore/Library/Android/sdk/platform-tools:/Users/epicore/Library/Android/sdk//tools:/Users/epicore/Library/Android/sdk//platform-tools:/Users/epicore/Library/Android/sdk/tools:/Users/epicore/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ubaidjs%2freact-native-material-textfield: Not found
+      at Request.params.callback [as _callback] (/Users/epicore/.yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/Users/epicore/.yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/Users/epicore/.yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/Users/epicore/.yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "react-native-material-dropdown",
+    "version": "0.11.1",
+    "license": "BSD-3-Clause",
+    "author": "Alexander Nazarov <n4kz@n4kz.com>",
+  
+    "description": "Material dropdown",
+    "keywords": [
+      "react",
+      "react-component",
+      "react-native",
+      "ios",
+      "android",
+      "material",
+      "dropdown",
+      "spinner",
+      "select"
+    ],
+  
+    "main": "index.js",
+  
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/n4kz/react-native-material-dropdown.git"
+    },
+  
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+  
+    "devDependencies": {
+      "babel-eslint": "^8.0.0",
+      "eslint": "^4.5.0",
+      "eslint-plugin-react": "^7.0.0"
+    },
+  
+    "scripts": {
+      "lint": "eslint src example/app.js"
+    },
+  
+    "dependencies": {
+      "prop-types": "^15.5.9",
+      "react-native-material-buttons": "^0.5.0",
+      "react-native-material-ripple": "^0.8.0",
+      "react-native-material-textfield": "^0.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
